@@ -1,4 +1,7 @@
+# PHPStorm
+.idea
+
+# App
 vendor
 composer.lock
-/.idea/
 .phpunit*

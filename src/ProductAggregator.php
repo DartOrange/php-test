@@ -11,6 +11,11 @@ class ProductAggregator
      */
     private $filename;
 
+    /**
+     * ProductAggregator constructor.
+     *
+     * @param string $filename
+     */
     public function __construct(string $filename)
     {
         $this->filename = $filename;
