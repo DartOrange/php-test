@@ -3,6 +3,7 @@
 namespace Horoshop;
 
 use Horoshop\Exceptions\UnavailablePageException;
+use Horoshop\App\Controller\Pages;
 
 class ProductAggregator
 {
@@ -31,6 +32,6 @@ class ProductAggregator
      */
     public function find(string $currency, int $page, int $perPage): string 
     {
-        //TODO implement
+        return Pages::GetPage($this->filename, $page, $perPage, $currency);
     }
 }

@@ -148,7 +148,7 @@ class ProductsTest extends TestCase
                     'default' => 447524.69,
                     'UAH' => 447000.0,
                     'USD' => 17433.0,
-                    'EUR' => 15645.0,
+                    'EUR' => 15645.01,
                     'RUB' => 1130910.0
                 ]
             ],
@@ -163,7 +163,7 @@ class ProductsTest extends TestCase
                     'UAH' => 94648.73,
                     'USD' => 3691.31,
                     'EUR' => 3312.71,
-                    'RUB' => 239461.28
+                    'RUB' => 239461.29
                 ]
             ],
             [
